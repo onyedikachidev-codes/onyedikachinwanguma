@@ -4,10 +4,15 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
+import Skills from "./_components/Skills";
+import About from "./_components/About";
+import Projects from "./_components/Projects";
+import Link from "next/link";
+
 export default function Page() {
   return (
     <main>
-      <section className="flex mt-12 gap-20 ml-36 min-h-screen">
+      <section id="home" className="flex mt-24 gap-16 ml-32 h-[99dvh]">
         <div className="mt-16 max-w-[52%]">
           <div className="text-xl tracking-widest text-gray-700">
             Hey! I&apos;m{" "}
@@ -29,18 +34,33 @@ export default function Page() {
           </p>
 
           <div className="flex gap-2 items-end mt-3">
-            <button className="bg-black text-gray-50 rounded-full py-3 px-6 uppercase mt-4 text-xs">
+            <Link
+              href="mailto:nwangumabimma@gmail.com"
+              className="bg-black hover:bg-gray-800 text-gray-50 rounded-full py-3 px-6 uppercase mt-4 text-xs"
+            >
               Contact Me
-            </button>
-            <div className="rounded-full h-12 w-12 border border-gray-500  flex items-center justify-center ml-2">
-              <FaGithub className="h-6 w-6 text-gray-700" />
-            </div>
-            <div className="rounded-full h-12 w-12 border border-gray-500  flex items-center justify-center">
+            </Link>
+
+            <Link
+              href="https://github.com/onyedikachidev-codes"
+              className="rounded-full cursor-pointer hover:bg-gray-300 h-12 w-12 border border-gray-500  flex items-center justify-center ml-2"
+            >
+              <FaGithub className="h-6 w-6 text-gray-700 " />
+            </Link>
+
+            <Link
+              href="https://www.linkedin.com/in/onyedikachi-nwanguma/"
+              className="rounded-full cursor-pointer hover:bg-gray-300 h-12 w-12 border border-gray-500  flex items-center justify-center"
+            >
               <CiLinkedin className="h-6 w-6 text-gray-700" />
-            </div>
-            <div className="rounded-full h-12 w-12 border border-gray-500  flex items-center justify-center">
+            </Link>
+
+            <Link
+              href="https://x.com/Mannie799"
+              className="rounded-full cursor-pointer hover:bg-gray-300 h-12 w-12 border border-gray-500  flex items-center justify-center"
+            >
               <FaXTwitter className="h-5 w-5 text-gray-700" />
-            </div>
+            </Link>
           </div>
         </div>
 
@@ -56,7 +76,23 @@ export default function Page() {
         </div>
       </section>
 
-      <section></section>
+      <section className="min-h-screen">
+        <div id="about" className="mb-20">
+          &nbsp;
+        </div>
+        <About />
+      </section>
+
+      <section className="min-h-screen">
+        <div id="skills" className="mb-20">
+          &nbsp;
+        </div>
+        <Skills />
+      </section>
+
+      <section className="min-h-screen mb-12 ">
+        <Projects />
+      </section>
     </main>
   );
 }

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function Navigation() {
   return (
-    <nav className="flex justify-between mx-10 mt-6 items-center max-w-full relative uppercase pb-4 border-b border-gray-300">
+    <nav className="flex justify-between mx-10 pt-6 items-center max-w-full relative uppercase pb-4  border-b border-gray-300">
       <div>
         <Link href="/" className="font-semibold text-xl">
           Onyedikachi Nwanguma
@@ -11,7 +11,7 @@ function Navigation() {
 
       <ul className="flex items-center gap-8 text-lg">
         <li>
-          <Link href="/" className="relative group">
+          <Link href="#about" className="relative group">
             <span className="text-gray-800 hover:text-gray-500 transition duration-300">
               About
             </span>
@@ -19,7 +19,7 @@ function Navigation() {
           </Link>
         </li>
         <li>
-          <Link href="/" className="relative group">
+          <Link href="#skills" className="relative group">
             <span className="text-gray-800 hover:text-gray-500 transition duration-300">
               Skills
             </span>
@@ -28,7 +28,7 @@ function Navigation() {
         </li>
 
         <li>
-          <Link href="/" className="relative group">
+          <Link href="#projects" className="relative group">
             <span className="text-gray-800 hover:text-gray-500 transition duration-300">
               Projects
             </span>
@@ -36,7 +36,10 @@ function Navigation() {
           </Link>
         </li>
         <li>
-          <Link href="/" className="relative group">
+          <Link
+            href="mailto:nwangumabimma@gmail.com"
+            className="relative group"
+          >
             <span className="text-gray-800 hover:text-gray-500 transition duration-300">
               Contact
             </span>
