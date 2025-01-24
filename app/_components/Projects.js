@@ -9,7 +9,7 @@ import helpr from "@/public/helpr.jpg";
 
 function Projects() {
   return (
-    <div className="mt-20">
+    <div className="md:mt-20 mt-5">
       <div id="projects" className="mb-20">
         &nbsp;
       </div>
@@ -20,14 +20,14 @@ function Projects() {
         My Projects
       </h2>
       <div className=" text-gray-800 flex items-start">
-        <div className="flex items-start gap-8 ml-16 mt-12">
-          <div className="group relative flex items-start gap-4 max-w-[47%] bg-gray-100 px-5 py-6 rounded-md hover:bg-gray-200 cursor-pointer">
+        <div className="flex lg:flex-row flex-col items-start gap-8 md:ml-16 mx-8 mt-12">
+          <div className="group relative flex md:flex-row flex-col items-start gap-4 lg:max-w-[47%] max-w-full bg-gray-100 px-5 py-6 rounded-md hover:bg-gray-200 cursor-pointer">
             <Image
               src={toolkit}
               alt="Toolkit page"
               width={150}
               height={150}
-              className="group-hover:scale-105"
+              className="group-hover:scale-105 h-[8rem] w-[40rem]"
             />
             <div>
               <Link
@@ -72,13 +72,13 @@ function Projects() {
             </div>
           </div>
 
-          <div className="group relative flex items-start gap-4 max-w-[47%] bg-gray-100 px-5 py-6 rounded-md hover:bg-gray-200 cursor-pointer">
+          <div className="group relative flex flex-col md:flex-row items-start gap-4 lg:max-w-[47%] max-w-full bg-gray-100 px-5 py-6 rounded-md hover:bg-gray-200 cursor-pointer">
             <Image
               src={helpr}
               alt="Toolkit page"
               width={150}
               height={150}
-              className="group-hover:scale-105"
+              className="group-hover:scale-105 h-[8rem] w-[40rem]"
             />
             <div>
               <Link
@@ -102,7 +102,7 @@ function Projects() {
                 communities in need.
               </p>
 
-              <div className="mt-8 flex flex-wrap gap-4">
+              <div className="mt-8 flex flex-wrap md:gap-4 gap-2">
                 <span className="bg-blue-500 text-white px-4 py-2 rounded-full">
                   Next.js
                 </span>
