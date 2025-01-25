@@ -7,32 +7,36 @@ function About() {
         About me
       </h2>
       <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
-        I&apos;m an aspiring front-end developer with a knack for turning ideas
-        into reality. As a Computer Science student of the prestigious Lagos
-        State University, I&apos;ve cultivated my skills in web development and
-        i&apos;m eager to apply them in more meaningful ways.
+        I&apos;m an aspiring front-end developer passionate about transforming
+        ideas into reality through impactful web solutions. As a Computer
+        Science student at the prestigious Lagos State University, I&apos;ve
+        honed my skills in technologies like HTML, CSS, JavaScript, React, and
+        Next.js, and I&apos;m eager to apply them in meaningful ways to create
+        value.
       </p>
       <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
-        I&apos;m currently on the lookout for exciting opportunities where I can
-        contribute and help create value. I like a good challenge, I like the
-        rush that comes with trying to beat a deadline and most importantly,
-        building and launching products that people use is genuinely the best
-        feeling.
+        I&apos;m actively seeking opportunities where I can contribute to
+        innovative projects and help solve real-world problems. I thrive on
+        tackling challenges, meeting tight deadlines, and, most importantly,
+        building products that users genuinely enjoy.
       </p>
       <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
-        When I&apos;m not coding, you&apos;ll find me watching or playing
-        sports, as well as watching captivating documentaries on youTube. I also
-        spend a lot of time on spotify listening to rap music.
+        When I&apos;m not coding, I enjoy staying active by playing sports,
+        diving into thought-provoking documentaries on YouTube, and exploring my
+        favorite music on Spotify, particularly rap.
       </p>
       <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
-        I thrive on creativity and innovation, and I&apos;m always on the
-        lookout for opportunities to grow and connect with like-minded people.
-        Contact me{" "}
-        <span className="cursor-pointer text-gray-600 hover:text-gray-400">
-          <Link href="/">here</Link>
+        Driven by creativity and innovation, I&apos;m constantly on the lookout
+        for opportunities to grow, collaborate, and connect with like-minded
+        individuals. Let&apos;s work together to make an impact, feel free to
+        reach me at
+        <span className="cursor-pointer text-blue-600 hover:text-blue-800">
+          <Link href="mailto:nwangumabimma@gmail.com">
+            {" "}
+            nwangumabimma@gmail.com
+          </Link>
         </span>
-        .
-      </p>{" "}
+      </p>
     </div>
   );
 }

@@ -11,25 +11,25 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <main className=" w-full max-w-none ">
+    <main className="w-full max-w-none">
       <section
         id="home"
-        className="flex flex-col-reverse lg:flex-row lg:mt-24 mt-1 md:gap-16 gap-4 lg:ml-32 md:ml-10 ml-2 h-[99dvh]"
+        className="flex flex-col-reverse xl:flex-row xl:mt-24 mt-1 xl:gap-10 md:gap-16 gap-4 xl:ml-10 md:ml-10 ml-2 lg:mb-6 lg:min-h-[90dvh] min-h-[99dvh]"
       >
-        <div className="md:mt-16 mt-10 lg:max-w-[52%] md:max-w-[80%] max-w-[98%] mx-8 md:ml-16">
+        <div className="xl:mt-20 md:mt-16 mt-10 xl:max-w-[48%] md:max-w-[80%] max-w-[98%] mx-8 xl:mx-0 xl:ml-24  lg:ml-24 md:ml-16">
           <div className="text-xl tracking-widest text-gray-700">
             Hey! I&apos;m{" "}
             <div className="mt-1 w-12 h-[0.13rem] bg-gray-500"></div>
           </div>
 
-          <h3 className="text-2xl font-semibold mt-6 uppercase">
+          <h3 className="text-2xl font-semibold mt-6 uppercase lg:text-3xl xl:text-2xl">
             Onyedikachi Nwanguma
           </h3>
 
-          <h4 className="text-xl text-gray-700 font-medium mt-[0.16rem]">
+          <h4 className="text-xl lg:text-2xl xl:text-xl text-gray-700 font-medium mt-[0.16rem]">
             A Frontend Engineering Intern
           </h4>
-          <p className="mt-5 text-gray-600">
+          <p className="mt-5 text-gray-600 lg:text-xl xl:text-base">
             Enthusiastic aspiring frontend developer with foundational skills in
             HTML, CSS, JavaScript, and React. Experienced in building responsive
             layouts and a deeply rooted foundation in computer science for
@@ -67,19 +67,19 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="mx-auto">
+        <div className="mx-auto xl:mx-0 xl:mt-8">
           <Image
             src={dp}
             alt="developer image"
             height={400}
             width={400}
             quality={90}
-            className="rounded-full object-cover lg:h-[23rem] lg:w-[23rem] md:h-[28rem] md:w-[28rem] h-[20rem] w-[20rem]"
+            className="rounded-full object-cover xl:h-[23rem] xl:w-[23rem] lg:h-[38rem] lg:w-[38rem] md:h-[28rem] md:w-[28rem] h-[20rem] w-[20rem]"
           />
         </div>
       </section>
 
-      <section className="w-full min-h-[80dvh]">
+      <section className="w-full min-h-[80dvh] lg:min-h-[80%] lg:mb-32">
         <div id="about" className="mb-20">
           &nbsp;
         </div>
@@ -87,13 +87,13 @@ export default function Page() {
       </section>
 
       <section className="w-full">
-        <div id="skills" className="mb-20 md:mb-10">
+        <div id="skills" className="mb-20 md:mb-10 xl:mb-20">
           &nbsp;
         </div>
         <Skills />
       </section>
 
-      <section className="min-h-screen mb-12 w-full">
+      <section className="lg:min-h-[70dvh] min-h-screen mb-12 w-full">
         <Projects />
       </section>
     </main>

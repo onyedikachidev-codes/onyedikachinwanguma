@@ -19,15 +19,19 @@ function Projects() {
       >
         My Projects
       </h2>
+      <p className="text-center mt-3 text-lg text-gray-700">
+        Here are some of my recent works that showcase my skills and passion for
+        development.
+      </p>
       <div className=" text-gray-800 flex items-start">
-        <div className="flex lg:flex-row flex-col items-start gap-8 md:ml-16 mx-8 mt-12">
-          <div className="group relative flex md:flex-row flex-col items-start gap-4 lg:max-w-[47%] max-w-full bg-gray-100 px-5 py-6 rounded-md hover:bg-gray-200 cursor-pointer">
+        <div className="flex xl:flex-row flex-col items-start gap-8 md:ml-16 mx-8 mt-12">
+          <div className="group relative flex md:flex-row flex-col items-start gap-4 xl:max-w-[47%] max-w-full bg-gray-100 px-5 py-6 rounded-md hover:bg-gray-200 cursor-pointer">
             <Image
               src={toolkit}
               alt="Toolkit page"
               width={150}
               height={150}
-              className="group-hover:scale-105 h-[8rem] w-[40rem]"
+              className="group-hover:scale-105 h-[8rem] w-[40rem] xl:h-[5rem] xl:w-[10rem]"
             />
             <div>
               <Link
@@ -72,13 +76,13 @@ function Projects() {
             </div>
           </div>
 
-          <div className="group relative flex flex-col md:flex-row items-start gap-4 lg:max-w-[47%] max-w-full bg-gray-100 px-5 py-6 rounded-md hover:bg-gray-200 cursor-pointer">
+          <div className="group relative flex flex-col md:flex-row items-start gap-4 xl:max-w-[47%] max-w-full bg-gray-100 px-5 py-6 rounded-md hover:bg-gray-200 cursor-pointer">
             <Image
               src={helpr}
               alt="Toolkit page"
               width={150}
               height={150}
-              className="group-hover:scale-105 h-[8rem] w-[40rem]"
+              className="group-hover:scale-105 h-[8rem] w-[40rem] xl:h-[5rem] xl:w-[10rem]"
             />
             <div>
               <Link
