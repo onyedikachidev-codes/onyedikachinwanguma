@@ -19,7 +19,7 @@ function Projects() {
       >
         My Projects
       </h2>
-      <p className="text-center mt-3 text-lg text-gray-700">
+      <p className="text-center mt-3 text-lg text-gray-700 mx-6">
         Here are some of my recent works that showcase my skills and passion for
         development.
       </p>

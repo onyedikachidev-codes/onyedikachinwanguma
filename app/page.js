@@ -39,7 +39,7 @@ export default function Page() {
           <div className="flex gap-2 items-end mt-3">
             <Link
               href="mailto:nwangumabimma@gmail.com"
-              className="bg-black hover:bg-gray-800 text-gray-50 rounded-full py-3 px-6 uppercase mt-4 text-xs"
+              className="bg-black hover:bg-gray-800 text-gray-50 rounded-full py-3 md:px-6 px-3 uppercase mt-4 text-xs"
             >
               Contact Me
             </Link>
@@ -74,7 +74,7 @@ export default function Page() {
             height={400}
             width={400}
             quality={90}
-            className="rounded-full object-cover xl:h-[23rem] xl:w-[23rem] lg:h-[38rem] lg:w-[38rem] md:h-[28rem] md:w-[28rem] h-[20rem] w-[20rem]"
+            className="rounded-full mt-24 sm:mt-0 object-cover xl:h-[23rem] xl:w-[23rem] lg:h-[38rem] lg:w-[38rem] md:h-[28rem] md:w-[28rem] h-[20rem] w-[20rem]"
           />
         </div>
       </section>

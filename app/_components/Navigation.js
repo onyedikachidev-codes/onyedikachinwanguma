@@ -135,7 +135,7 @@ function Navigation() {
               router.push("#about");
               setIsOpen(false);
             }}
-            className="flex items-center justify-between hover:bg-gray-200 py-3 px-2 ml-7 rounded-md text-lg font-medium w-[90%] border-b border-gray-700"
+            className="flex items-center justify-between hover:bg-gray-200 py-3 px-2 mx-5 rounded-md text-lg font-medium w-[90%] border-b border-gray-700"
           >
             <Link href="#about" onClick={() => setIsOpen(false)}>
               About
@@ -148,7 +148,7 @@ function Navigation() {
               router.push("#skills");
               setIsOpen(false);
             }}
-            className="flex items-center justify-between hover:bg-gray-200 py-3 px-2 ml-7 rounded-md text-lg font-medium w-[90%] border-b border-gray-700"
+            className="flex items-center justify-between hover:bg-gray-200 py-3 px-2 mx-5 rounded-md text-lg font-medium w-[90%] border-b border-gray-700"
           >
             <Link href="#skills" onClick={() => setIsOpen(false)}>
               Skills
@@ -161,7 +161,7 @@ function Navigation() {
               router.push("#projects");
               setIsOpen(false);
             }}
-            className="flex items-center justify-between hover:bg-gray-200 py-3 px-2 ml-7 rounded-md text-lg font-medium w-[90%] border-b border-gray-700"
+            className="flex items-center justify-between hover:bg-gray-200 py-3 px-2 mx-5 rounded-md text-lg font-medium w-[90%] border-b border-gray-700"
           >
             <Link href="#projects" onClick={() => setIsOpen(false)}>
               Projects
@@ -174,7 +174,7 @@ function Navigation() {
               handleButtonClick();
               setIsOpen(false);
             }}
-            className="flex items-center justify-between hover:bg-gray-200 py-3 px-2 ml-7 rounded-md text-lg font-medium w-[90%] "
+            className="flex items-center justify-between hover:bg-gray-200 py-3 px-2 mx-5 rounded-md text-lg font-medium w-[90%] "
           >
             <Link
               href="mailto:nwangumabimma@gmail.com"
