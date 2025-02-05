@@ -95,7 +95,7 @@ function Projects() {
                 </span>
               </Link>
               <p className="mt-3 text-medium text-gray-800">
-                Helpr crowdfunding platform that allows individuals and
+                Helpr is a crowdfunding platform that allows individuals and
                 organizations to raise money for personal, charitable causes.
               </p>
               <p className="mt-3 text-gray-600">
