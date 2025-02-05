@@ -4,7 +4,6 @@ import "@/app/_styles/globals.css";
 
 import Header from "@/app/_components/Header";
 import Footer from "@/app/_components/Footer";
-import Head from "next/head";
 
 const mons = Montserrat({
   subsets: ["latin"],
@@ -18,18 +17,18 @@ export const metadata = {
   },
   description:
     "A dedicated intern specializing in Frontend engineering. Connect with me to learn more.",
+  scripts: [
+    {
+      src: "https://cloud.umami.is/script.js",
+      async: true,
+      "data-website-id": "d5e7a020-2709-48bf-a9e7-890496e6553c",
+    },
+  ],
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <script
-          defer
-          src="https://cloud.umami.is/script.js"
-          data-website-id="d5e7a020-2709-48bf-a9e7-890496e6553c"
-        ></script>
-      </Head>
       <body
         className={`${mons.className} antialiased min-h-screen bg-gray-100`}
       >
