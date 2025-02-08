@@ -86,7 +86,7 @@ function Projects() {
             />
             <div>
               <Link
-                href="https://helpr-v1.vercel.app/"
+                href="https://helpr-zeta.vercel.app/"
                 className="flex gap-1 items-center text-xl font-semibold group-hover:text-blue-500 group-hover:scale-x-[1.02] "
               >
                 Helpr
