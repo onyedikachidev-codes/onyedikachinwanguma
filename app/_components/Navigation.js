@@ -73,62 +73,34 @@ function Navigation() {
         </li>
       </ul>
 
-      <div className="md:hidden ">
-        <button onClick={toggleMenu}>
-          <GiHamburgerMenu
-            className={`${
-              isOpen ? "hidden" : "block"
-            } h-6 w-6 text-blue-800 hover:text-blue-600`}
-          />
-          <FaTimes
-            className={`${
-              isOpen ? "block" : "hidden"
-            } h-6 w-6 text-blue-800 hover:text-blue-600`}
-          />
+      <div className="md:hidden">
+        <button onClick={toggleMenu} className="relative h-8 w-8">
+          <div className="absolute inset-0 flex items-center justify-center transition-transform duration-300">
+            <GiHamburgerMenu
+              className={`h-6 w-6 text-blue-800 hover:text-blue-600 transform transition-all duration-300 ${
+                isOpen
+                  ? "scale-0 rotate-90 opacity-0"
+                  : "scale-100 rotate-0 opacity-100"
+              }`}
+            />
+            <FaTimes
+              className={`h-6 w-6 text-blue-800 hover:text-blue-600 absolute transform transition-all duration-300 ${
+                isOpen
+                  ? "scale-100 rotate-0 opacity-100"
+                  : "scale-0 -rotate-90 opacity-0"
+              }`}
+            />
+          </div>
         </button>
       </div>
 
       <div
-        className={`${
+        className={`absolute top-[4.4rem] sm:top-[20dvh] md:hidden w-full min-h-screen left-0  overflow-hidden p-4 transition-all duration-300 ease-in-out ${
           isOpen
-            ? "absolute top-[4.4rem] sm:top-[20dvh] z-100 min-h-screen w-full left-0 bg-gray-100 overflow-hidden"
-            : "hidden"
-        } md:hidden `}
+            ? "translate-y-0 opacity-100 fixed inset-0 z-100 bg-gray-100"
+            : "-translate-y-full opacity-0 pointer-events-none"
+        }  `}
       >
-        {/* <div className="uppercase w-full ml-8 mt-6">
-          <Link
-            href="#about"
-            onClick={() => setIsOpen(false)}
-            className="hover:bg-gray-200 block px-3 py-2  text-lg font-medium w-full"
-          >
-            About
-          </Link>
-
-          <Link
-            href="#skills"
-            onClick={() => setIsOpen(false)}
-            className="hover:bg-gray-200 block px-3 py-2  text-lg font-medium w-full mt-2"
-          >
-            Skills
-          </Link>
-
-          <Link
-            href="#projects"
-            onClick={() => setIsOpen(false)}
-            className="hover:bg-gray-200 block px-3 py-2 rounded-md text-lg font-medium w-full mt-2"
-          >
-            Projects
-          </Link>
-
-          <Link
-            href="mailto:nwangumabimma@gmail.com"
-            onClick={() => setIsOpen(false)}
-            className="hover:bg-gray-200 block px-3 py-2 rounded-md text-lg font-medium w-full mt-2"
-          >
-            Contact
-          </Link>
-        </div> */}
-
         <div className="uppercase w-full mt-6">
           <div
             onClick={() => {
