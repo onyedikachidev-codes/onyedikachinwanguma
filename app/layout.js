@@ -13,7 +13,7 @@ const mons = Montserrat({
 
 export const metadata = {
   title: {
-    default: "Onyedikachi| Frontend Engineering Intern",
+    default: "Onyedikachi | Frontend Engineering Intern",
   },
   description:
     "A dedicated intern specializing in Frontend engineering. Connect with me to learn more.",
