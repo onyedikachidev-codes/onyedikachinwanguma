@@ -95,7 +95,7 @@ function Navigation() {
       </div>
 
       <div
-        className={`absolute top-[4.4rem] sm:top-[20dvh] md:hidden w-full min-h-screen left-0  overflow-hidden p-4 transition-all duration-300 ease-in-out ${
+        className={`absolute top-[10dvh] sm:top-[20dvh] md:hidden w-full min-h-screen left-0  overflow-hidden p-4 transition-all duration-300 ease-in-out ${
           isOpen
             ? "translate-y-0 opacity-100 fixed inset-0 z-100 bg-gray-100"
             : "-translate-y-full opacity-0 pointer-events-none"
