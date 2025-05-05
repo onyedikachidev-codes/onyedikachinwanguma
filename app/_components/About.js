@@ -3,10 +3,10 @@ import Link from "next/link";
 function About() {
   return (
     <div className="lg:ml-32 md:ml-24 mx-10 text-gray-800">
-      <h2 className="uppercase text-gray-600 text-xl font-semibold">
+      <h2 className="uppercase text-gray-600 text-2xl md:text-3xl font-semibold">
         About me
       </h2>
-      <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
+      <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-lg font-medium ">
         I&apos;m a Junior Frontend Engineer with a strong foundation in web
         development and a focus on delivering high-quality, user-centric web
         applications. With a background in Computer Science from Lagos State
@@ -15,18 +15,13 @@ function About() {
         these skills to build efficient, scalable, and visually compelling web
         solutions that create real value for users and businesses alike.
       </p>
-      <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
-        I&apos;m actively seeking opportunities where I can contribute to
-        innovative projects and help solve real-world problems. I thrive on
-        tackling challenges, meeting tight deadlines, and, most importantly,
-        building products that users genuinely enjoy.
-      </p>
-      <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
+
+      <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-lg font-medium ">
         When I&apos;m not coding, I enjoy staying active by playing sports,
         diving into thought-provoking documentaries on YouTube, and exploring my
         favorite music on Spotify, particularly rap.
       </p>
-      <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
+      <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-lg font-medium ">
         Driven by creativity and innovation, I&apos;m constantly on the lookout
         for opportunities to grow, collaborate, and connect with like-minded
         individuals. Let&apos;s work together to make an impact, feel free to

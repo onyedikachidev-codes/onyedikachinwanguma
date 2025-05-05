@@ -42,7 +42,7 @@ export default function SideProjects() {
   return (
     <div className="p-6 rounded-2xl shadow-sm mt-10 mx-10">
       <h2 className="text-2xl font-semibold mb-2 text-gray-800">
-        My Side Projects
+        Other Projects
       </h2>
       <p className="text-gray-600 mb-6">
         Explore a few of the other projects I&apos;ve built.
