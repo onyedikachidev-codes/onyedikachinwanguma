@@ -27,13 +27,14 @@ export default function Page() {
           </h3>
 
           <h4 className="text-xl lg:text-2xl xl:text-xl text-gray-700 font-medium mt-[0.16rem]">
-          Junior Frontend Engineer
+            Junior Frontend Engineer
           </h4>
           <p className="mt-5 text-gray-600 lg:text-xl xl:text-base">
-            Enthusiastic aspiring frontend developer with foundational skills in
-            HTML, CSS, JavaScript, and React. Experienced in building responsive
-            layouts and a deeply rooted foundation in computer science for
-            creative problem-solving.
+            I&apos;m a Junior Frontend Engineer with hands-on experience in
+            building responsive, user-focused web interfaces using HTML, CSS,
+            JavaScript, TypeScript, and React. I have a strong foundation in
+            computer science and a working knowledge of backend technologies,
+            enabling me to contribute effectively across the stack.
           </p>
 
           <div className="flex gap-2 items-end mt-3">

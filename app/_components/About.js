@@ -7,12 +7,13 @@ function About() {
         About me
       </h2>
       <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
-        I&apos;m an aspiring front-end developer passionate about transforming
-        ideas into reality through impactful web solutions. As a Computer
-        Science student at the prestigious Lagos State University, I&apos;ve
-        honed my skills in technologies like HTML, CSS, JavaScript, React, and
-        Next.js, and I&apos;m eager to apply them in meaningful ways to create
-        value.
+        I&apos;m a Junior Frontend Engineer with a strong foundation in web
+        development and a focus on delivering high-quality, user-centric web
+        applications. With a background in Computer Science from Lagos State
+        University, I’ve honed my expertise in technologies such as HTML, CSS,
+        JavaScript, TypeScript, React, and Next.js. I&apos;m driven to leverage
+        these skills to build efficient, scalable, and visually compelling web
+        solutions that create real value for users and businesses alike.
       </p>
       <p className="lg:max-w-[91%] md:max-w-[95%] max-w-full mt-4 text-xl font-medium font-serif">
         I&apos;m actively seeking opportunities where I can contribute to
