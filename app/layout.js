@@ -4,6 +4,7 @@ import "@/app/_styles/globals.css";
 
 import Header from "@/app/_components/Header";
 import Footer from "@/app/_components/Footer";
+import Script from "next/script";
 
 const mons = Montserrat({
   subsets: ["latin"],
@@ -29,6 +30,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="d5e7a020-2709-48bf-a9e7-890496e6553c"
+          strategy="lazyOnload"
+        />
+      </head>
       <body
         className={`${mons.className} antialiased min-h-screen bg-gray-100`}
       >
