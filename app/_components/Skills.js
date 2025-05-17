@@ -2,7 +2,7 @@ function Skills() {
   return (
     <div className="flex flex-col items-start xl:gap-16 gap-10 xl:ml-32 md:ml-10 mx-8 mt-5">
       <div className="max-w-full">
-        <h2 className=" text-gray-600 text-2xl xl:text-3xl xl:text-gray-900 font-semibold mb-3 md:mb-0 xl:mb-3">
+        <h2 className="text-2xl xl:text-3xl xl:text-gray-900 font-semibold mb-3 md:mb-0 xl:mb-3">
           Relevant Courses & Skills
         </h2>
 

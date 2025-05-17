@@ -14,9 +14,9 @@ export default function Page() {
     <main className="w-full max-w-none">
       <section
         id="home"
-        className="flex flex-col-reverse xl:flex-row xl:mt-24 mt-1 xl:gap-10 md:gap-16 gap-4 xl:ml-10 md:ml-10 ml-2 lg:mb-6 lg:min-h-[90dvh] min-h-[99dvh]"
+        className="flex flex-col-reverse xl:flex-row xl:mt-24 mt-1 md:mt-10 lg:mt-20 xl:gap-10 md:gap-16 gap-4 xl:ml-10 md:ml-10 ml-2 lg:mb-6 lg:min-h-[90dvh] min-h-[99dvh]"
       >
-        <div className="xl:mt-20 md:mt-16 mt-10 xl:max-w-[48%] md:max-w-[80%] max-w-[98%] mx-8 xl:mx-0 xl:ml-24  lg:ml-24 md:ml-16">
+        <div className="xl:mt-20 md:mt-0 mt-10 xl:max-w-[48%] md:max-w-[80%] max-w-[98%] mx-8 xl:mx-0 xl:ml-24  lg:ml-24 md:ml-16">
           <div className="text-xl tracking-widest text-gray-700">
             Hey! I&apos;m{" "}
             <div className="mt-1 w-12 h-[0.13rem] bg-gray-500"></div>
@@ -75,12 +75,12 @@ export default function Page() {
             height={400}
             width={400}
             quality={90}
-            className="rounded-full mt-24 sm:mt-0 object-cover xl:h-[23rem] xl:w-[23rem] lg:h-[38rem] lg:w-[38rem] md:h-[28rem] md:w-[28rem] h-[20rem] w-[20rem]"
+            className="rounded-full mt-24 sm:mt-0 object-cover xl:h-[23rem] xl:w-[23rem] lg:h-[28rem] lg:w-[28rem] md:h-[25rem] md:w-[25rem] xxs:h-[20rem] xxs:w-[20rem] w-[18rem] h-[18rem]"
           />
         </div>
       </section>
 
-      <section className="w-full min-h-[80dvh] lg:min-h-[80%] lg:mb-32">
+      <section className="w-full lg:mb-32">
         <div id="about" className="mb-20">
           &nbsp;
         </div>

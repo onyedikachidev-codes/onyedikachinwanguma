@@ -37,6 +37,8 @@ module.exports = {
       },
       screens: {
         xs: "480px",
+        xxs: "400px",
+        xmd: "590px",
       },
     },
   },
